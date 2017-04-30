@@ -38,7 +38,7 @@ with(dat2,lines(DateTime,Global_active_power))
 with(dat2,plot(DateTime,Sub_metering_1,ylab="Energy sub metering", xlab="",type="l"))
 with(dat2,lines(DateTime,Sub_metering_2,col="red",xlab=""))
 with(dat2,lines(DateTime,Sub_metering_3,col="blue",xlab=""))
-legend(x="topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=1,col=c("black","red","blue")))
+legend(x="topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=1,col=c("black","red","blue"))
 #Plot4
 with(dat2,plot(DateTime,Global_reactive_power,type="l"))
 with(dat2,lines(DateTime,Global_reactive_power))
